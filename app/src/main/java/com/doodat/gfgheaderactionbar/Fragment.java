@@ -41,7 +41,7 @@ public class Fragment extends HeaderFragment {
     @Override
     public View onCreateContentView(LayoutInflater inflater, ViewGroup container) {
         // sets the main content below actionbar
-        return inflater.inflate(R.layout.fragment_maincontent, container, false);
+        return inflater.inflate(R.layout.main_content, container, false);
     }
 
     @Override
